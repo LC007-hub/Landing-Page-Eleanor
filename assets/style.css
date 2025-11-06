@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero-section {
+    background-color: #fff; 
+    min-height: 80vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 40px 20px; 
+}
+
+
+.hero-title {
+    font-size: 4.5em; 
+    color: #4CAF50; 
+    margin-bottom: 0;
+    font-family: 'Montserrat'; 
+}
+
+.hero-subtitle {
+    font-size: 2.5em; 
+    color: #4CAF50;
+    margin-top: 10px; 
+    font-family: 'Montserrat';
+}
+
+.hero-sofa {
+    max-width: 600px;
+    height: auto; 
+    margin-top: 50px; 
+
+}
