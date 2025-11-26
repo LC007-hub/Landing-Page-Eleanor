@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Paytone+One&display=swap');
+
+
+
+.hero-section {
+    background-color: #fff;  
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 40px 20px; 
+}
+
+
+.hero-title {
+    font-size: 4.5em; 
+    color: #4CAF50; 
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.hero-subtitle {
+    font-size: 2.5em; 
+    color: #4CAF50;
+    margin-top: 10px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-sofa {
+    width: 50%;
+    height: auto; 
+    margin-top: 50px; 
+
+}
+
+/* GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    max-width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 15px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15);
+    
+}
+
+.context-title {
+    font-size: 2.5em;
+    color: #4CAF50; 
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    padding: 10px
+}
+
+.context-text {
+    padding: 10px 40px 50px; 
+    text-align: left;
+}
+
+.context-text p {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    text-align: left;
+    font-family:'Montserrat light', sans-serif;
+    
+}
+
+.context-image {
+    padding: 30px 40px 30px 0;
+}
+
+.context-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px; 
+    
+}
+
+/* GRID */
+
+
+
+
+ /*BOTÃO*/
+
+.div-button{
+    text-align: center; 
+    padding-top: 20px; 
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.cta-button {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    border-radius: 40px;
+    padding: 15px 30px;
+    border: none;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cta-button:hover {
+    color: #4CAF50;
+    background-color: #FFEB8C; 
+    transform: translateY(-4px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+ /*BOTÃO*/
+
+ @media (max-width: 1280px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+         
+    }
+ }
+ @media (max-width: 768px) {   
+    .context-image {
+            order: -1; 
+            padding: 0 0 20px 0; 
+        }
+
+
+
+    .hero-subtitle {
+        font-size: 1.2em;
+    }
+
+    .hero-title{
+        font-size: 3em;
+    }
+
+    .context-title {
+        font-size: 2em;
+        padding: 0;
+        text-align: center;
+    }
+
+    .context-text {
+        padding: 10px 20px 30px; 
+    }
+
+    .context-paragraph {
+        text-align: center !important;
+    }
+
+   
+
+ }
