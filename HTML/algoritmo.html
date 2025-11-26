@@ -1,119 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/main.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="../assets/main.css" />
+  </head>
+  <body>
     <div class="navbar">
-        <a href="../index.html">
-            <h1 class="title_nav">The Good Place</h1>
-        </a>
+      <a href="../index.html">
+        <h1 class="title_nav">The Good Place</h1>
+      </a>
+      <label class="hamburger-menu" aria-label="Abrir Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
 
-        <button class="hamburger-menu" aria-label="Abrir Menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
+      <ul>
+        <li class="navbarAnimation"><a href="sobre.html">Sobre</a></li>
+        <li class="navbarAnimation"><a href="algoritmo.html">Algoritmo</a></li>
 
-        <ul>
-            <li class="navbarAnimation"><a href="sobre.html">Sobre</a></li>
-            <li class="navbarAnimation"><a href="algoritmo.html">Algoritmo</a></li>
-            <li class="navbarAnimation"><a href="squad.html">Squad</a></li>
-            <li class="navbarAnimation"><a href="falso_bom_lugar.html">Falso bom lugar</a></li>
-            <li class="navbarAnimation"><a href="quotes.html">Quotes</a></li>
-        </ul>
+        <li class="navbarAnimation"><a href="squad.html">Squad</a></li>
+        <li class="navbarAnimation">
+          <a href="falso_bom_lugar.html">Falso bom lugar</a>
+        </li>
+        <li class="navbarAnimation"><a href="quotes.html">Quotes</a></li>
+      </ul>
     </div>
 
-
-
     <main class="main-wrapper">
-        <div class="container-score-system">
+      <div class="container-score-system">
+        <div class="score-container">
+          <div class="current-score grid-item">
+            <div class="score-number">+47</div>
+            <div class="score-label">Total de Pontos Atual</div>
+          </div>
 
-            <div class="score-container">
-                <div class="current-score grid-item">
-                    <div class="score-number">+47</div>
-                    <div class="score-label">Total de Pontos Atual</div>
-                </div>
-
-                <div class="deed-card good-deeds grid-item">
-                    <div class="card-header">
-                        <img src="../assets\images\+ button.png" alt="Sinal de Mais" width="390em">
-                    </div>
-                    <h3>Boas Ações</h3>
-                    <p>Ganhe pontos positivos</p>
-                    <hr>
-                    <ul class="deeds-list">
-                        <li>
-                            <span class="deed-name">Doar à caridade</span>
-                            <span class="deed-points">+100</span>
-                        </li>
-                        <li>
-                            <span class="deed-name">Ajudar alguém</span>
-                            <span class="deed-points">+50</span>
-                        </li>
-                        <li>
-                            <span class="deed-name">Elogiar alguém</span>
-                            <span class="deed-points">+10</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="deed-card bad-deeds grid-item">
-                    <div class="card-header">
-                        <img src="../assets\images\- button.png" alt="Sinal de Menos">
-                    </div>
-                    <h3>Más Ações</h3>
-                    <p>Perder pontos</p>
-                    <hr>
-                    <ul class="deeds-list">
-                        <li>
-                            <span class="deed-name">Cometer fraude</span>
-                            <span class="deed-points">-500</span>
-                        </li>
-                        <li>
-                            <span class="deed-name">Ser rude com prestadores de serviço</span>
-                            <span class="deed-points">-25</span>
-                        </li>
-                        <li>
-                            <span class="deed-name">Roubar material de escritório</span>
-                            <span class="deed-points">-10</span>
-                        </li>
-                    </ul>
-                </div>
+          <div class="deed-card good-deeds grid-item">
+            <div class="card-header">
+              <img
+                src="../assets\images\+ button.png"
+                alt="Sinal de Mais"
+                width="390em"
+              />
             </div>
-            <div class="img-michael">
-                <img src="../assets\images\michael.png" class="michael-image" width="100%" alt="Personagem Michael">
+            <h3>Boas Ações</h3>
+            <p>Ganhe pontos positivos</p>
+            <hr />
+            <ul class="deeds-list">
+              <li>
+                <span class="deed-name">Doar à caridade</span>
+                <span class="deed-points">+100</span>
+              </li>
+              <li>
+                <span class="deed-name">Ajudar alguém</span>
+                <span class="deed-points">+50</span>
+              </li>
+              <li>
+                <span class="deed-name">Elogiar alguém</span>
+                <span class="deed-points">+10</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="deed-card bad-deeds grid-item">
+            <div class="card-header">
+              <img src="../assets\images\- button.png" alt="Sinal de Menos" />
             </div>
+            <h3>Más Ações</h3>
+            <p>Perder pontos</p>
+            <hr />
+            <ul class="deeds-list">
+              <li>
+                <span class="deed-name">Cometer fraude</span>
+                <span class="deed-points">-500</span>
+              </li>
+              <li>
+                <span class="deed-name"
+                  >Ser rude com prestadores de serviço</span
+                >
+                <span class="deed-points">-25</span>
+              </li>
+              <li>
+                <span class="deed-name">Roubar material de escritório</span>
+                <span class="deed-points">-10</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="img-michael">
+          <img
+            src="../assets\images\michael.png"
+            class="michael-image"
+            width="100%"
+            alt="Personagem Michael"
+          />
+        </div>
+      </div>
+
+      <div class="explanation-text">
+        <div class="title">
+          <h2>Como Funciona o Sistema de Pontos?</h2>
         </div>
 
-
-        
-
-        <div class="explanation-text">
-            <div class="title">
-                <h2>Como Funciona o Sistema de Pontos?</h2>
-            </div>
-
-            <div class="descricao">
-                <p class="titleDescricao">
-                Bem-vindos, meus queridos amigos!
-                </p> 
-                <p>
-                Eu sou Michael, o arquiteto da sua vizinhança. O universo é um lugar vasto e complexo, e cada ação que vocês realizam, seja ela boa ou má, é meticulosamente registada num intrincado sistema de pontos.
-                Cada escolha, cada intenção, cada pequena gentileza ou grave erro... tudo é contabilizado. Uma "boa ação" pode render centenas de pontos, enquanto uma "má ação" pode subtrair milhares! Mas cuidado, pois o mundo moderno é um emaranhado de consequências não intencionais.Até mesmo um ato simples como comprar um tomate pode resultar em pontos negativos, já que o algoritmo penaliza a sua contribuição indireta para a exploração e poluição envolvidas na complexa logística global, apoiando uma vasta rede de comércio moralmente comprometida.
-                O objetivo é simples: acumular mais pontos positivos do que negativos. No final da jornada, a pontuação total determinará o vosso destino eterno. Então, olhem para o painel acima, reflitam sobre as vossas ações e esforcem-se para serem as melhores versões de vocês mesmos... ou pelo menos, para evitar o "Bad Place!
-                </p>
-            </div>
-            
-            
+        <div class="descricao">
+          <p class="titleDescricao">Bem-vindos, meus queridos amigos!</p>
+          <p>
+            Eu sou Michael, o arquiteto da sua vizinhança. O universo é um lugar
+            vasto e complexo, e cada ação que vocês realizam, seja ela boa ou
+            má, é meticulosamente registada num intrincado sistema de pontos.
+            Cada escolha, cada intenção, cada pequena gentileza ou grave erro...
+            tudo é contabilizado. Uma "boa ação" pode render centenas de pontos,
+            enquanto uma "má ação" pode subtrair milhares! Mas cuidado, pois o
+            mundo moderno é um emaranhado de consequências não intencionais.Até
+            mesmo um ato simples como comprar um tomate pode resultar em pontos
+            negativos, já que o algoritmo penaliza a sua contribuição indireta
+            para a exploração e poluição envolvidas na complexa logística
+            global, apoiando uma vasta rede de comércio moralmente comprometida.
+            O objetivo é simples: acumular mais pontos positivos do que
+            negativos. No final da jornada, a pontuação total determinará o
+            vosso destino eterno. Então, olhem para o painel acima, reflitam
+            sobre as vossas ações e esforcem-se para serem as melhores versões
+            de vocês mesmos... ou pelo menos, para evitar o "Bad Place!
+          </p>
         </div>
-
-        
+      </div>
     </main>
-
-</body>
+  </body>
 </html>
