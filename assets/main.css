@@ -163,7 +163,7 @@ body {
     grid-template-columns: 120px 1fr;
     grid-template-rows: auto auto;
     gap: 30px;
-    
+    height: 100%;
     
 
 }
@@ -204,7 +204,7 @@ body {
     grid-template-columns: 1fr 1fr; 
     gap: 20px;
     padding: 0 40px 40px 0;
-    height: 100%;
+    
 }
 
 .grid-item {
