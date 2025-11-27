@@ -125,6 +125,15 @@
          
     }
  }
+ 
+
+ @media (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: 1fr;    
+    }
+    
+ }
+
  @media (max-width: 768px) {   
     .context-image {
             order: -1; 
@@ -142,19 +151,33 @@
     }
 
     .context-title {
-        font-size: 2em;
+        font-size: 1.2em;
         padding: 0;
         text-align: center;
     }
 
     .context-text {
-        padding: 10px 20px 30px; 
+        padding: 0.5em; 
     }
 
     .context-paragraph {
         text-align: center !important;
+        font-size: 0.8em !important;
     }
 
    
+    .hero-sofa {
+        width: 85%;
 
+    }
+
+    .grid-container{
+        
+        margin: 1em auto 3em auto;
+        gap: 0.5em !important;
+    }
+    .cta-button{
+        font-size: 1em;
+        padding: 1.2em;
+    }
  }
